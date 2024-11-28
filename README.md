@@ -1,0 +1,12 @@
+# ffmpeg-pusher
+Use ffmpeg push stream like rtsp rtmp <br/>
+In this program input can be in rtsp,stmp,mp4,... format <br/>
+Output stream codec will be converted into rawvideo foramt <br/>
+# Installation
+`git clone https://github.com/MahsaAm2/Multimedia-Server.git ffmpeg`<br/>
+`cd ffmpeg`<br/>
+`mkdir build`<br/>
+`cd build`<br/>
+`cmake ..`<br/>
+`make`<br/>
+`./test input_stream output_stream`<br/>
